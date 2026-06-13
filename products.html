@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badr Marble | products</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/62c3c796cd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header class="premium-header">
+        <div class="brand-box">
+            <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;">
+            <div class="brand-logo">BADR <span>GROUP</span></div>
+            <div class="brand-subtitle" id="brand-sub">LUXURY MARBLE & GRANITE</div></a>
+        </div>
+        
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" id="nav-home">الرئيسية</a></li>
+                <li><a style="display: none;" href="products.html" class="nav-link active" id="nav-products">المنتجات</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-left-wrapper">
+            <div class="products-counter-badge">
+                <span id="badge-text">المختارات:</span> <span id="count-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="products-container-section">
+        <div class="section-header">
+            <span class="sub-title" id="page-sub-title">المعرض الحصري</span>
+            <h1 class="main-title"><span id="page-main-title">تشكيلة الرخام والجرانيت</span></h1>
+            <div class="filter-wrapper">
+                <button class="filter-trigger active" data-filter="all" id="fltAll" data-name-ar="الكل" data-name-en="All" >الكل</button>
+                <button class="filter-trigger" data-filter="granite" id="fltGran">جرانيت</button>
+                <button class="filter-trigger" data-filter="marble" id="fltMar">رخام</button>
+            </div>
+        </div>
+        
+        <div class="products-luxury-grid">
+            <div class="luxury-product-card portfolio-item"  data-category="granite" data-code="A1" data-name-ar="جرانيت كلاكتا كوارتز ذهبى" data-name-en=" Calacatta Gold Quartz Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="grante/كلاكتا كورتز ذهبي.webp" type="image/avif">
+                        <img src="granite/كلاكتا كورتز ذهبي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A1</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name"> جرانيت كلاكتا كوارتز ذهبى </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A1', this)">اختيار المنتج</button>
+                </div>
+            </div>
+
+            <div class="luxury-product-card portfolio-item " data-category="granite"  data-code="B1" data-name-ar="جرانيت أسود أسواني" data-name-en="Aswan Black Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="Granite/اسود اسواني.webp" type="image/avif">
+                        <img src="Granite/اسود اسواني.webp" alt="Granite" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B1</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت أسود أسواني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B1', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="A2" data-name-ar="جرانيت ميلي جراي " data-name-en="Miley Gray Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="granite/ميلي جراي.webp" type="image/avif">
+                        <img src="granite/ميلي جراي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A2</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت ميلي جراي </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A2', this)">اختيار المنتج</button>
+                </div>
+            </div>
+
+            <div class="luxury-product-card portfolio-item"   data-category="granite" data-code="A3" data-name-ar="جرانيت ابلادور زيتي" data-name-en="Labrador Green Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/ابلادور زيتي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A3</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت ابلادور زيتي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A3', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            
+            <div class="luxury-product-card portfolio-item"  data-category="granite" data-code="A4" data-name-ar="جرانيت ابلادور سيلفر" data-name-en="Labrador Silver Granite">
+                <div class="card-img-holder">
+                    <picture> 
+                        <source srcset="" type="image/avif">
+                        <img src="granite/ابلادور سيلفر.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A4</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت ابلادور سيلفر</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A4', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B2" data-name-ar="جرانيت احمر اسواني" data-name-en="Aswan Red Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/احمر اسواني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B2</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت احمر اسواني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B2', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A5" data-name-ar="جرانيت الاسكا وايت" data-name-en="Alaska White Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/الاسكا وايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A5</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت الاسكا وايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A5', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item" data-category="granite" data-code="A6" data-name-ar="جرانيت بالتك براون" data-name-en="Baltic Brown Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/بالتك براون.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A6</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت بالتك براون</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A6', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A7" data-name-ar="جرانيت براديسو" data-name-en="Paradiso Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/براديسيو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A7</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت براديسو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A7', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A8" data-name-ar="جرانيت بلاك جولد" data-name-en="Black Gold Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/بلاك جولد.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A8</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت بلاك جولد</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A8', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A9" data-name-ar="جرانيت بلاك فورست" data-name-en="Black Forest Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/بلاك فورست.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A9</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت بلاك فورست</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A9', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A10" data-name-ar="جرانيت تيتانيوم ذهبي" data-name-en="Titanium Gold Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/تيتانيوم ذهبي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A10</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت تيتانيوم ذهبي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A10', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B3" data-name-ar="جرانيت جندولا" data-name-en="Gandola Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/جندولا.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B3</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت جندولا</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B3', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B4" data-name-ar="جرانيت حلايب" data-name-en="Halayeb Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/حلايب.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B4</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت حلايب</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B4', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B5" data-name-ar="جرانيت رمادي شركة" data-name-en="Sherka Grey Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/رمادي شركه.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B5</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت رمادي شركة</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B5', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A11" data-name-ar="جرانيت فانتستيك وايت" data-name-en="Fantastic White Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/فانتستيك وايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A11</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت فانتستيك وايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A11', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B6" data-name-ar="جرانيت فرسان" data-name-en="Forsan Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/فرسان.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B6</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت فرسان</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B6', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B7" data-name-ar="جرانيت فيردي" data-name-en="Verdi Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/فيردي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B7</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت فيردي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B7', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A12" data-name-ar="جرانيت فيساج بلو" data-name-en="Vizag Blue Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/فيساج بلو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A12</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت فيساج بلو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A12', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="A13" data-name-ar="جرانيت كوزميك بلاك" data-name-en="Cosmic Black Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/كوزميك بلاك.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A13</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت كوزميك بلاك</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A13', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="A14" data-name-ar="جرانيت مون وايت" data-name-en="Moon White Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/مون وايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A14</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت مون وايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A14', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="A15" data-name-ar="جرانيت ميلنيوم" data-name-en="Millennium Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/ميلنيوم.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A15</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت ميلنيوم</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A15', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A16" data-name-ar="جرانيت نيرو فولكانو" data-name-en="Nero Volcano Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/نيرو فولكانو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A16</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت نيرو فولكانو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A16', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="B8" data-name-ar="جرانيت نيو حلايب" data-name-en="New Halayeb Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/نيو حلايب.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B8</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت نيو حلايب</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B8', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item "  data-category="granite" data-code="B9" data-name-ar="جرانيت هودي" data-name-en="Rosa Hoody Granite">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/هودي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B9</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت هودي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B9', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="B10" data-name-ar="جرانيت وادي الملوك" data-name-en="Granite Wadi El Molouk">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/وادي الملوك.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">B10</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت وادي الملوك</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('B10', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="granite" data-code="A17" data-name-ar="جرانيت فيسكون وايت" data-name-en="Viscon White">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="granite/فيسكون وايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">A17</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">جرانيت فيسكون وايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('A17', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C1" data-name-ar="رخام امبرادور غامق بني" data-name-en="Dark Emperador Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/امبرادور غامق بني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C1</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام امبرادور غامق بني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C1', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C2" data-name-ar="رخام امبرادور لايت" data-name-en="Light Emperador Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/امبرادور لايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C2</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام امبرادور لايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C2', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C3" data-name-ar="رخام بتشينو" data-name-en="Botticino Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/بتشينو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C3</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام بتشينو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C3', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C4" data-name-ar="رخام ابيض مقدوني" data-name-en="Macedonian White Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام ابيض مقدوني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C4</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام ابيض مقدوني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C4', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C5" data-name-ar="رخام اخضر هندي" data-name-en="Indian Green Marble (Verde Guatemala)">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام اخضر هندي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C5</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام اخضر هندي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C5', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C6" data-name-ar="رخام اسود اسباني" data-name-en="Spanish Black Marble (Nero Marquina)">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام اسود اسباني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C6</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام اسود اسباني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C6', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C7" data-name-ar="رخام اسود ماركينو" data-name-en="Nero Marquina Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام اسود ماركينا.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C7</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام اسود ماركينو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C7', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C8" data-name-ar="رخام الابستر" data-name-en="Alabaster Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام الابستر.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C8</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام الابستر</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C8', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C9" data-name-ar="رخام اوريو جراي" data-name-en="Oreo Grey Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام اوريو جراي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C9</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام اوريو جراي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C9', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C10" data-name-ar="رخام اونكس" data-name-en="Onyx Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام اونكس.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C10</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام اونكس</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C10', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C11" data-name-ar="رخام باندا وايت" data-name-en="Panda White Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام باندا وايت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C11</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام باندا وايت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C11', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C12" data-name-ar="رخام بريشيا داينو" data-name-en="Breccia Daino Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام بريشيا داينو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C12</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام بريشيا داينو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C12', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C13" data-name-ar="رخام بلاك عزيزة" data-name-en="Black Aziza Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام بلاك عزيزه.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C13</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام بلاك عزيزة</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C13', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C14" data-name-ar="رخام بوردر بيج" data-name-en="Border Beige Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام بوردر بيج.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C14</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام بوردر بيج</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C14', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C15" data-name-ar="رخام بيترا جراي تركي" data-name-en="Turkish Pietra Grey Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام بيترا جراي تركي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C15</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام بيترا جراي تركي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C15', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C16" data-name-ar="رخام ترفنتينو" data-name-en="Travertine Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام ترافنتينو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C16</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام ترفنتينو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C16', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C17" data-name-ar="رخام تندرا جراي" data-name-en="Tundra Grey Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام تندرا جراي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C17</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام تندرا جراي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C17', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C18" data-name-ar="رخام ترازو" data-name-en="Terrazzo Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام تيرازو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C18</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام ترازو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C18', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C19" data-name-ar="رخام دايموند جراي" data-name-en="Diamond Grey Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام دايموند جراي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C19</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام دايموند جراي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C19', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="C20" data-name-ar="رخام روزا هندي" data-name-en="Indian Rosa Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام روزا هندي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">C20</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام روزا هندي</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('C20', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D1" data-name-ar="رخام شيفا جولد" data-name-en="Shiva Gold Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام شيفا جولد.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D1</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام شيفا جولد</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D1', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D2" data-name-ar="رخام شيكولاتة" data-name-en="Chocolate Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام شيكولاته بني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D2</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام شيكولاتة</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D2', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D3" data-name-ar="رخام صوفيا جولد" data-name-en="Sofia Gold Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام صوفيا جولد.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D3</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام صوفيا جولد</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D3', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D4" data-name-ar="رخام كرارة" data-name-en="Carrara Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام كراره.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D4</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كرارة</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D4', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D5" data-name-ar="رخام كريمة مارفل" data-name-en="Crema Marfil Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام كريما مارفل.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D5</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كريمة مارفل</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D5', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D6" data-name-ar="رخام كلاكتا يوناني" data-name-en="Greek Calacatta Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام كلكتا يوناني.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D6</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كلاكتا يوناني</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D6', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D7" data-name-ar="رخام كيمت" data-name-en="Kemet Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/رخام كيمت.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D7</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كيمت</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D7', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D8" data-name-ar="رخام منيا ريشة " data-name-en="Minia Risha Marble ">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/منيا ريشة.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D8</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام منيا ريشة </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D8', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D9" data-name-ar=" رخام منيا فص" data-name-en="Minia Fass Marble ">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/منيا فص.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D9</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام منيا فص </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D9', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D10" data-name-ar="رخام جلالة سادة تصدير " data-name-en="Galala Plain Export Marble ">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/جلالة سادة تصدير.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D10</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name"> رخام جلالة سادة تصدير</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D10', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D11" data-name-ar=" رخام جلالة فص" data-name-en=" Galala Fass Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/جلالة فص.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D11</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name"> رخام جلالة فص</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D11', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D12" data-name-ar=" رخام كريستا بيج" data-name-en="Cresta Beige Marble ">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/كريستا بيج.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D12</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كريستا بيج </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D12', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D13" data-name-ar=" رخام كريستا رمادي" data-name-en="Cresta Grey Marble ">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/كريستا رمادي.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D13</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام كريستا رمادي </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D13', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D14" data-name-ar="رخام سلفيا " data-name-en=" Silvia Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/سيلفيا.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D14</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name">رخام سلفيا </h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D14', this)">اختيار المنتج</button>
+                </div>
+            </div>
+            <div class="luxury-product-card portfolio-item " data-category="marble" data-code="D15" data-name-ar=" رخام فلتو" data-name-en="Felitto Marble">
+                <div class="card-img-holder">
+                    <picture>
+                        <source srcset="" type="image/avif">
+                        <img src="marble/فلتو.webp" alt="Marble" loading="lazy">
+                    </picture>
+                    <span class="product-code-tag">D15</span>
+                </div>
+                <div class="card-details">
+                    <h3 class="p-name"> رخام فلتو</h3>
+                    <button class="action-select-btn" onclick="toggleProductSelection('D15', this)">اختيار المنتج</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="premium-sticky-bar" id="stickyBar">
+        <div class="sticky-bar-info">
+            <i class="primary-gold"></i> <span id="bar-text">تم تحديد منتجات للاستفسار عنها.</span>
+        </div>
+        <button class="redirect-quote-btn" onclick="sendDataToMainPage()" id="bar-btn">تأكيد ونقل إلى طلب التسعيرة ←</button>
+    </div>
+    <div class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <script src="products.js"></script>
+</body>
+</html>
